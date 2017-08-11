@@ -1,0 +1,192 @@
+nav {
+	box-shadow: none !important;
+}
+.presentation {
+	width: 100%;
+	height: 70vh;
+	background-image: url('./img/work.jpg');
+}
+.save {
+	position: relative;
+}
+.save .descripcion .card-title {
+	font-weight: 500;
+	font-family: 'Bree Serif', serif;
+
+}
+.save .descripcion p {
+	font-weight: 300;
+	font-family: 'Roboto', sans-serif;
+	text-align: justify;
+}
+.bg-presentation{
+	width: 100%;
+	height: 100%;
+	background-color: #00bcd4;
+	opacity: 0.9;
+	padding-top: 15vh;
+}
+.bg-presentation h1 {
+	margin:0;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+}
+.bg-presentation .profesion {
+	color: white;
+	font-family: 'Anton', sans-serif;
+	margin-top: 0px;
+	padding-left: 3px;
+}
+.bg-presentation .info {
+	color: white;
+	font-family: 'Bree Serif', serif;
+	padding-left: 3px;
+}
+.info {
+	-webkit-display: flex;
+	-moz-display: flex;
+	-o-display: flex;
+	display: flex;
+	align-items: center;
+}
+.info i {
+	margin-right: 10px;
+}
+.descripcion {
+	position: absolute;
+	left: 35%;
+    bottom: -175px;
+}
+.education {
+	margin-top: 50vh; 
+	position: relative;
+}
+.education p.info {
+	justify-content: center;
+	font-family: 'Anton', sans-serif;
+	font-size: 24px;
+	margin-bottom: 15vh;
+}
+.education p i {
+	font-size: 32px;
+}
+.education .card-image {
+	padding: 2px;
+}
+.education .card-stacked span {
+	-webkit-display: flex;
+	-moz-display: flex;
+	-o-display: flex;
+	display: flex !important;
+	align-items: center;
+	font-family: 'Bree Serif', serif;
+}
+.education .card-stacked p {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 200;
+}
+.education .circle {
+	padding: 13px;
+	position: absolute;
+	right: 49.1%;
+	top: 51%;
+}
+.skill {
+	margin-top: 20vh;
+	position: relative;
+
+}
+.skill p.info {
+	justify-content: center;
+	font-family: 'Anton', sans-serif;
+	font-size: 24px;
+	margin-bottom: 10vh;
+}
+.skill p i {
+	font-size: 32px;
+}
+
+.navbar-fixed {
+	height: auto !important;
+}
+
+.section {
+	padding: 0 !important;
+}
+
+.skill .col {
+	margin-bottom: 15px;
+}
+
+.grafica-barra {
+	padding: 0px;
+	width: 100%;
+	border: 1px solid #00bcd4;
+	border-radius: 8px;
+}
+
+.gf-content {
+	padding: 0px;
+	height: 100%;
+	border-radius: 7px;
+}
+
+.hb-title {
+	padding: 0px;
+	padding-left: 10px;
+	margin: 0px;
+	color: white;
+	font-family: 'Bree Serif', serif;
+	font-size: 14px;
+	text-align: center;
+}
+
+.o-card {
+	width: 100%;
+	height: 20vh;
+	text-align: center;
+	border-radius: 50%;
+	padding: 0px;
+	position: relative;
+}
+
+.o-card .bg-presentation {
+	text-align: center;
+	padding: 0px !important;
+	-webkit-display: flex;
+	-moz-display: flex;
+	-o-display: flex;
+	display: flex !important;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	opacity: 0.6;
+}
+
+.o-card i {
+	font-size: 40px;
+}
+
+.skill .card-image img {
+	height: 250px;
+}
+
+footer li a {
+	color: white;
+}
+
+footer h5 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+}
+
+.social-item {
+	color: #00bcd4;
+	padding: 6px 6px 6px 7px;
+	border-radius: 50%;
+	background-color: white;
+	margin-right: 8px;
+	height: 40px !important;
+	text-align: center;
+}

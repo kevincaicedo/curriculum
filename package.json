@@ -1,0 +1,17 @@
+{
+  "name": "curriculum",
+  "version": "1.0.0",
+  "description": "Hoja de vida digital",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Hoja",
+    "de",
+    "vida",
+    "web"
+  ],
+  "author": "ing.sys.kevincaicedo@gmail.com",
+  "license": "ISC"
+}
