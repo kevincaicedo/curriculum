@@ -320,6 +320,53 @@
       </div>
     </div><br>
 
+    <div class="skill por section scrollspy" id="hobbie">
+      <div class="row">
+        <div class="container">
+          <p class="info"><i class="material-icons cyan-text">color_lens</i>  PORTAFOLIO </p>
+          <div class="row">
+            
+              <div class="col s6 m6">
+                <div class="card">
+                  <div class="card-image">
+                    <div class="carousel carousel-slider" data-indicators="true">
+                      <a class="carousel-item" href="#three!"><img src="img/tp3.png"></a>
+                      <a class="carousel-item" href="#one!"><img src="img/tp1.png"></a>
+                      <a class="carousel-item" href="#two!"><img src="img/tp2.png"></a>
+                      
+                      <a class="carousel-item" href="#four!"><img src="img/tp4.png"></a>
+                    </div>
+                  </div>
+                  <div class="card-content"><strong class="bolds">TuraShop</strong>
+                  <p class="things">Plataforma ecommerce</p>
+                  <p class="things"><strong class="bolds">Tecnologias: </strong> Node.js, Parse-Server.js, Angular 4</p>
+                  </div>
+                  
+                </div>
+              </div>
+
+              <div class="col s6 m6">
+                  <div class="card">
+                    <div class="card-image">
+                      <div class="carousel carousel-slider" data-indicators="true">
+                        
+                        <a class="carousel-item" href="#two!"><img src="img/cd2.png"></a>
+                        <a class="carousel-item" href="#one!"><img src="img/cd1.png"></a>
+                        <a class="carousel-item" href="#three!"><img src="img/cd3.png"></a>
+                      </div>
+                    </div>
+                    <div class="card-content"><strong class="bolds">Codeing</strong>
+                      <p class="things">Codeing Plataforma de desarrollo y educacion</p>
+                      <p class="things"><strong class="bolds">Tecnologias: </strong> Php, Laravel, React</p>
+                    </div>
+
+                  </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div><br>
+
     <div class="map cyan darken-1" style="">
       <div class="container">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3980.6943053637006!2d-76.99510218561922!3d3.8755813971809467!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e373b435613b635%3A0x1e417490fae68dc4!2sCl.+9+%2369a-30%2C+Buenaventura%2C+Valle+del+Cauca!5e0!3m2!1sen!2sco!4v1502482314770" height="450" frameborder="0" style="border:0; width: 100%; " allowfullscreen></iframe>
@@ -370,7 +417,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.min.js"></script>
     <script type ="text/javascript">
-      
+      $(document).ready(function(){
+        $('.carousel.carousel-slider').carousel({fullWidth: true});
+      });
     </script>
   </body>
 </html>

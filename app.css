@@ -172,6 +172,10 @@ nav {
 	height: 250px;
 }
 
+.skill.por .card-image img {
+	height: 260px !important;
+}
+
 footer li a {
 	color: white;
 }
@@ -179,6 +183,15 @@ footer li a {
 footer h5 {
 	font-family: 'Roboto', sans-serif;
 	font-weight: 100;
+}
+
+.things {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+}
+
+.bolds {
+	font-family: 'Bree Serif', serif;
 }
 
 .social-item {
