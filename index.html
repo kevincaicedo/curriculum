@@ -1,425 +1,239 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
   <head>
-    <!--Import Google Icon Font-->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <!--Import materialize.css-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css">
+    
     <!--Let browser know website is optimized for mobile-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <link href="https://fonts.googleapis.com/css?family=Roboto:100" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Roboto:100" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-    <link rel="stylesheet" href="app.css">
-    <title>Kevin Caicedo</title>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Kevin Caicedo</title>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Roboto:100" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" 
+          integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
+    <!-- UIkit CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="css/jquery.fullpage.min.css">
+    <link rel="stylesheet" href="css/app.css">
+
   </head>
-  <body>
+  <body style="overflow-x: hidden;">
 
-    <div class="navbar-fixed">
-      <nav class="cyan">
-        <div class="container">
-          <div class="nav-wrapper">
-            <ul id="nav-mobile" class="left hide-only-down">
-              <li><a class="active" href="#presentationitem">Home</a></li>
-              <li><a href="#educacionitem">Educacion</a></li>
-              <li><a href="#skillitem">Habilidades</a></li>
-              <li><a href="#hobbie">Hobbies</a></li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-    </div>
-    <div class="row">
-
-        <div class="presentation section scrollspy" id="presentationitem">
-         <section class="bg-presentation">
-           <header>
-              <div class="row">
-                <div class="container">
-                  <h1>KEVIN CAICEDO</h1>
-                  <p class="profesion">Ingeniero en sistemas / Desarrollador web fullstack</p>
-                  <p class="info"><i class="material-icons">mail</i> ing.sys.kevincaicedo@gmail.com</p>
-                  <p class="info"><i class="material-icons">location_city</i> Buenaventura - Valle del cauca - Colombia</p>
-                  <p class="info"><i class="material-icons">phone_iphone</i> +57 3152330997 / +57 3167230604</p>
-                  <p class="info"><i class="material-icons">phone_in_talk</i> 2427271 </p>
-                  <div class="social">
-                    <a href="https://github.com/kevincaicedo" target="_blank" class="social-item">
-                      <i class="fa fa-github" aria-hidden="true"></i>
-                    </a>
-
-                    <a href="https://www.linkedin.com/in/kevin-caicedo-529072ba/" target="_blank" class="social-item">
-                      <i class="fa fa-linkedin-square" aria-hidden="true"></i>
-                    </a>
-
-                    <a href="mailto:ing.sys.kevincaicedo@gmail.com" target="_top" class="social-item">
-                      <i class="fa fa-envelope-square" aria-hidden="true"></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </header>
-         </section>
-         <div class="save">
-            <div class="descripcion">
-              <div class="col s12 m6">
-                <div class="card white">
-                  <div class="card-content gray-text center">
-                    <span class="card-title cyan-text">Perfil</span>
-                    <p>Soy un Ingeniero en Sistemas altamente responsable, creativo, con iniciativa, puntualidad y autodidacta, asumo con responsabilidad los retos y metas que se me planteen. Cuento con una sólida formación en diseño, análisis, implementacion y administración de sistemas. Con conocimientos avanzados en desarrollo de sistemas web, conocedor de arquitecturas, patrones de diseño y paradigmas de programación</p><br>
-
-                    <a class="btn-floating btn-large cyan" href="#educacionitem">
-                      <i class="large material-icons">arrow_downward</i>
-                    </a>
-                  </div>
-                
-                </div>
-              </div>
-            </div>
-          </div>
-
-        </div>
-
-    </div>
-
-    <div class="education section scrollspy" id="educacionitem">
-      <div class="row">
-        <div class="container">
-          <p class="info"><i class="material-icons cyan-text">local_library</i>  EDUCACION </p>
-          <div class="row">
-            
-            <div class="col s12 m6">
-              <div class="card white horizontal">
-                <div class="card-image cyan">
-                </div>
-                <div class="card-stacked">
-                    <div class="card-content black-text">
-                      <span class="card-title info"><i class="material-icons cyan-text">business</i> Secundarios</span>
-                      <p class="">Institucion Educativas Las Americas</p>
-                      <p>Titulo: Tecnico bachiller en gestion empresarial</p>
-                    </div>
-                </div>
-              </div>
-            </div>
-
-
-
-            <div class="col s12 m6">
-              <div class="card white horizontal">
-                <div class="card-image cyan">
-                </div>
-                <div class="card-stacked">
-                    <div class="card-content gray-text">
-                      <span class="card-title info"><i class="material-icons cyan-text">school</i> Universitario</span>
-                      <p>Universidad del pacifico</p>
-                      <p>Titulo: Ingeniero en sistemas</p>
-                    </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col s12 m6">
-              <div class="card white horizontal">
-                <div class="card-image cyan">
-                </div>
-                <div class="card-stacked">
-                    <div class="card-content gray-text">
-                      <span class="card-title info"><i class="material-icons cyan-text">public</i> Desarrollo web</span>
-                      <p>Platzi</p>
-                      <p>Titulo: Desarrollo web</p>
-                    </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col s12 m6">
-              <div class="card white horizontal">
-                <div class="card-image cyan">
-                </div>
-                <div class="card-stacked">
-                    <div class="card-content gray-text">
-                      <span class="card-title info"><i class="material-icons cyan-text">storage</i> Back-end</span>
-                      <p>Platzi</p>
-                      <p>Titulo: Node.js y javascript</p>
-                    </div>
-                </div>
-              </div>
-            </div>
-
-           
-
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="skill section scrollspy" id="skillitem">
-      <div class="row">
-        <div class="container">
-          <p class="info"><i class="material-icons cyan-text">assignment_turned_in</i>  HABILIDADES </p>
+      <div id="fullpage" style="overflow-x: hidden;">
+        <div class="section step-presetation">
           
-          <div class="row">
-            <div class="col s12 m6">
-                <div class="grafica-barra">
-                  <div class="gf-content cyan" style="width: 100%">
-                    <p class="hb-title">HTML5 100% </p>
-                  </div>
-                </div>
-            </div>
-
-            <div class="col s12 m6">
-                <div class="grafica-barra">
-                  <div class="gf-content cyan" style="width: 90%">
-                    <p class="hb-title">Node.js 90% </p>
-                  </div>
-                </div>
-            </div>
-
-            <div class="col s12 m6">
-                <div class="grafica-barra">
-                  <div class="gf-content cyan" style="width: 95%">
-                    <p class="hb-title">CSS3 95%</p>
-                  </div>
-                </div>
-            </div>
-
-            <div class="col s12 m6">
-                <div class="grafica-barra">
-                  <div class="gf-content cyan" style="width: 70%">
-                    <p class="hb-title">Php 70% </p>
-                  </div>
-                </div>
-            </div>
-
-            <div class="col s12 m6">
-                <div class="grafica-barra">
-                  <div class="gf-content cyan" style="width: 70%">
-                    <p class="hb-title">Illustrator 70% </p>
-                  </div>
-                </div>
-            </div>
-
-            <div class="col s12 m6">
-                <div class="grafica-barra">
-                  <div class="gf-content cyan" style="width: 60%">
-                    <p class="hb-title">Java 60% </p>
-                  </div>
-                </div>
-            </div>
-
-            <div class="col s12 m6">
-                <div class="grafica-barra">
-                  <div class="gf-content cyan" style="width: 98%">
-                    <p class="hb-title">Javascript 98%</p>
-                  </div>
-                </div>
-            </div>
-
-            <div class="col s12 m6">
-                <div class="grafica-barra">
-                  <div class="gf-content cyan" style="width: 60%">
-                    <p class="hb-title">Python 60% </p>
-                  </div>
-                </div>
-            </div>
-
-            <div class="col s12 m6">
-                <div class="grafica-barra">
-                  <div class="gf-content cyan" style="width: 70%">
-                    <p class="hb-title">Angular 70% </p>
-                  </div>
-                </div>
-            </div>
-
-            <div class="col s12 m6">
-                <div class="grafica-barra">
-                  <div class="gf-content cyan" style="width: 85%">
-                    <p class="hb-title">React 85% </p>
-                  </div>
-                </div>
-            </div>
-
-            <div class="col s12 m6">
-                <div class="grafica-barra">
-                  <div class="gf-content cyan" style="width: 40%">
-                    <p class="hb-title">Android 40% </p>
-                  </div>
-                </div>
-            </div>
-
-            <div class="col s12 m6">
-                <div class="grafica-barra">
-                  <div class="gf-content cyan" style="width: 65%">
-                    <p class="hb-title">Ionic 65% </p>
-                  </div>
-                </div>
-            </div>
-
-            <div class="col s12 m6">
-                <div class="grafica-barra">
-                  <div class="gf-content cyan" style="width: 95%">
-                    <p class="hb-title">Sass 95% </p>
-                  </div>
-                </div>
-            </div>
-
-            <div class="col s12 m6">
-                <div class="grafica-barra">
-                  <div class="gf-content cyan" style="width: 70%">
-                    <p class="hb-title">Stylus 70% </p>
-                  </div>
-                </div>
-            </div>
-
+          <div class="animated slideInDown con-iso-top"> 
+            <div class="isometric-top"></div> 
           </div>
-
-        </div>
-      </div>
-    </div>
-
-    <div class="skill section scrollspy" id="hobbie">
-      <div class="row">
-        <div class="container">
-          <p class="info"><i class="material-icons cyan-text">color_lens</i>  HOBBIES </p>
-          <div class="row">
-            
-              <div class="col s6 m4">
-                <div class="card">
-                  <div class="card-image cyan">
-                    <img src="img/viajes.jpg">
-                    <a class="btn-floating halfway-fab waves-effect waves-light cyan"><i class="material-icons">airplanemode_active</i></a>
-                  </div>
-                  <div class="card-content"><strong>Viajes</strong></div>
-                </div>
-              </div>
-
-              <div class="col s6 m4">
-                  <div class="card">
-                    <div class="card-image cyan">
-                      <img src="img/depor.jpg">
-                      <a class="btn-floating halfway-fab waves-effect waves-light yellow darken-3"><i class="material-icons">fitness_center</i></a>
-                    </div>
-                    <div class="card-content"><strong>Deportes</strong></div>
-                  </div>
-              </div>
-
-              <div class="col s6 m4">
-                 <div class="card">
-                    <div class="card-image cyan">
-                      <img src="img/works.jpg">
-                      <a class="btn-floating halfway-fab waves-effect waves-light deep-orange darken-2"><i class="material-icons">security</i></a>
-                    </div>
-                    <div class="card-content"><strong>Hacking Etico</strong></div>
-                  </div>
-              </div>
-
+          <div class="animated slideInUp con-iso-right"> 
+            <div class="isometric-right"></div>
           </div>
-        </div>
-      </div>
-    </div><br>
-
-    <div class="skill por section scrollspy" id="hobbie">
-      <div class="row">
-        <div class="container">
-          <p class="info"><i class="material-icons cyan-text">next_week</i>  PORTAFOLIO </p>
-          <div class="row">
-            
-              <div class="col s6 m6">
-                <div class="card">
-                  <div class="card-image">
-                    <div class="carousel carousel-slider" data-indicators="true">
-                      <a class="carousel-item" href="#three!"><img src="img/tp3.png"></a>
-                      <a class="carousel-item" href="#one!"><img src="img/tp1.png"></a>
-                      <a class="carousel-item" href="#two!"><img src="img/tp2.png"></a>
-                      
-                      <a class="carousel-item" href="#four!"><img src="img/tp4.png"></a>
-                    </div>
-                  </div>
-                  <div class="card-content"><strong class="bolds">TuraShop</strong>
-                  <p class="things">Plataforma ecommerce</p>
-                  <p class="things"><strong class="bolds">Tecnologias: </strong> Node.js, Parse-Server.js, Angular 4</p>
-                  </div>
+          <!-- Just an image -->
+          <header>
+            <div class="mynav">
+              <div class="container">
+                <nav class="navbar  navbar-light">
+                  <a class="navbar-brand" href="#">
+                    <img src="img/logo.png" width="30" height="30" alt="">
+                  </a>
+                  <ul class="nav justify-content-end">
+                    <li class="nav-item hidem">
+                      <a class="nav-link active" href="#firstPage">Perfil</a>
+                    </li>
+                    <li class="nav-item hidem">
+                      <a class="nav-link" href="#thirdPage">Portafolio</a>
+                    </li>
+                    <li class="nav-item" style="margin-top: 9px">
+                      <a class="mybtn" href="#fourthPage">Contacto</a>
+                    </li>
+                  </ul>
                   
-                </div>
+
+                </nav>
+              </div>
+            </div>
+          </header>
+          <div class="row">
+            <div class="col-lg-6" style="padding-left: 10vw; padding-top: 16vh; overflow: hidden; position: relative;">
+              <p class="eyebrow">hola mi nombre es</p>
+              <h2 class="machine-text"></h2>
+              <h1 class="txbody animated fadeIn">Ingeniero de sistemas, Desarrollador web & movil</h1>
+              <div class="social animated fadeIn">
+
+                <a href="https://github.com/kevincaicedo" class="social-link">
+                  <i class="fab fa-linkedin"></i>
+                </a>
+
+                <a href="https://github.com/kevincaicedo" class="social-link">
+                  <i class="fab fa-github"></i>
+                </a>
+                
+                
               </div>
 
-              <div class="col s6 m6">
-                  <div class="card">
-                    <div class="card-image">
-                      <div class="carousel carousel-slider" data-indicators="true">
-                        
-                        <a class="carousel-item" href="#two!"><img src="img/cd2.png"></a>
-                        <a class="carousel-item" href="#one!"><img src="img/cd1.png"></a>
-                        <a class="carousel-item" href="#three!"><img src="img/cd3.png"></a>
-                      </div>
-                    </div>
-                    <div class="card-content"><strong class="bolds">Codeing</strong>
-                      <p class="things">Codeing Plataforma de desarrollo y educacion</p>
-                      <p class="things"><strong class="bolds">Tecnologias: </strong> Php, Laravel, React</p>
-                    </div>
-
-                  </div>
-              </div>
+            </div>
+            <div class="col-lg-6">
+              <img src="img/pweb.png" class="animated fadeInUp" style="width: 100%;" alt="">
+            </div>
           </div>
+
+        </div>
+
+        <div class="section" id="firstPage" style="overflow: hidden;"><!-- section 2 -->
+          <div class="con-iso-two"> 
+            <div class="isometric-right"></div>
+          </div>
+          <div class="row">
+            <div class="col-lg-6 col-sm-12" style="padding: 8vw">
+              <img src="img/ingc.png" class="colorfo2" style="width: 70%;" alt="">
+            </div>
+            <div class="col-lg-6 col-sm-12">
+              <div class="align-middle" style="height: 100%; display: flex; flex-direction: column; justify-content: center; padding: 8vw;">
+
+                <h2 class="anidown-two txheading">PERFIL PROFESIONAL</h2>
+                <P class="txbody aniup-two" style="color: #37474F; text-align: justify;" >Ingeniero de Sistemas egresado de la Universidad del Pacifico con altos conocimientos en Lenguajes de Programación con énfasis en el Desarrollo Web y Móvil; cuento con una sólida formación en diseño, análisis, implementación y administración de sistemas; conocedor de arquitecturas, patrones de diseño y paradigmas de programación los cuales me permiten integrarme fácilmente en cualquier proyecto y adaptarme rápidamente a cualquier equipo de trabajo. Soy altamente responsable, creativo, con iniciativa, puntual y sobre todo me caracterizo por ser una persona muy autodidacta, asumo con responsabilidad los retos y metas que se me planteen.</P>
+                
+              </div>
+              
+            </div>
+          </div>
+          
+        </div><!-- FIN SECTION 2 -->
+
+        <div class="section" id="thirdPage" style="background: #459BEF;">
+          <div class="row">
+            
+            <div class="col-lg-12 col-sm-12">
+              
+              <div class="align-middle" style="height: 100%; display: flex; flex-direction: column; justify-content: center; padding: 8vw;">
+
+                <h2 class="anidown-two txheading" style="color: white"> PORTAFOLIO </h2>
+
+                <div class="row">
+                  
+                        <div class="col-sm-12 col-md-6 col-lg-4">
+                          
+                            <div class="imgover">
+                               <div class="overlay" style="color: white">
+                                    <h4 style="color: white; font-weight: bold;">Turashop.com</h4>
+                                    <p>Plataforma de publicaciion de anuncios y ventas online.</p>
+                               </div>
+                               <img src="img/portafolio/Capturatur.PNG" style="width: 100%; margin-bottom: 20px">
+                            </div>
+                          
+
+                        </div>
+
+                        <div class="col-sm-12 col-md-6 col-lg-4">
+                          
+                            <div class="imgover">
+                               <div class="overlay" style="color: white">
+                                    <h4 style="color: white; font-weight: bold;">CafePacifico</h4>
+                                    <p>Plataforma de ventas y reservas para el restaurante CafePacifico.</p>
+                               </div>
+                               <img src="img/portafolio/Captur278a.PNG" style="width: 100%; margin-bottom: 20px">
+                            </div>
+
+                        </div>
+
+                        <div class="col-sm-12 col-md-6 col-lg-4">
+
+                            <div class="imgover">
+                               <div class="overlay" style="color: white">
+                                    <h4 style="color: white; font-weight: bold;">Alliance</h4>
+                                    <p>Pagina web para la empresa alliance s.a.s para compartir informacion de sus procesos.</p>
+                               </div>
+                               <img src="img/portafolio/Captu2555ra.PNG" style="width: 100%; margin-bottom: 20px">
+                            </div>
+
+                        </div>
+
+                        <div class="col-sm-12 col-md-6 col-lg-4">
+                          
+                            <div class="imgover">
+                               <div class="overlay" style="color: white">
+                                    <h4 style="color: white; font-weight: bold;">BuenaventuraCloud</h4>
+                                    <p>Plataforma de alojamiento en la nube.</p>
+                               </div>
+                               <img src="img/portafolio/Captura.PNG" style="width: 100%; margin-bottom: 20px">
+                            </div>
+
+                        </div>
+
+                        <div class="col-sm-12 col-md-6 col-lg-4">
+
+                            <div class="imgover">
+                               <div class="overlay" style="color: white">
+                                    <h4 style="color: white; font-weight: bold;">Encuesta Unipacifico</h4>
+                                    <p>Plataforma de Encuestas para egresados de la universidad del pacifico.</p>
+                               </div>
+                               <img src="img/portafolio/encuestas.png" style="width: 100%; margin-bottom: 20px">
+                            </div>
+
+                        </div>
+
+                        <div class="col-sm-12 col-md-6 col-lg-4">
+                          
+                            <div class="imgover">
+                               <div class="overlay" style="color: white">
+                                    <h4 style="color: white; font-weight: bold;">AsegUnipacifico</h4>
+                                    <p>Plataforma de seguimiento a egresados y bolsa de empleo.</p>
+                               </div>
+                               <img src="img/portafolio/asegunipacifico.png" style="width: 100%; margin-bottom: 20px">
+                            </div>
+
+                        </div>
+
+
+                </div>
+
+              </div>
+
+            </div>
+          </div>
+          
+        </div>
+        <div class="section" id="fourthPage" style="position: relative;">
+
+            <div class="finlast" style="  display: flex;
+                                          justify-content: center;
+                                          flex-direction: column;
+                                          align-items: center; ">
+              
+                
+                <p style="color: #6c757d!important; font-size: 24px; font-weight: 300;"> <i class="fas fa-mobile"></i> +57 3174473059 </p>
+                <p style="color: #6c757d!important; font-size: 24px; font-weight: 300;"> 
+                  <i class="fas fa-map-marker-alt"></i> Buenaventura, Valle del Cauca 
+                </p>
+                <p style="color: #6c757d!important; font-size: 24px; font-weight: 300;"> <i class="fas fa-envelope-square"></i> ing.sys.kevincaicedo@gmail.com </p>
+
+                <div class="social animated fadeIn">
+
+                      <a href="https://github.com/kevincaicedo" class="social-link">
+                        <i class="fab fa-linkedin"></i>
+                      </a>
+
+                      <a href="https://github.com/kevincaicedo" class="social-link">
+                        <i class="fab fa-github"></i>
+                      </a>
+
+                </div>
+
+            </div>
+
+            <footer class="footer">
+              <div class="container">
+                <span class="text-muted">Kevin Caicedo © Todos los derechos reservados 2017</span>
+              </div>
+            </footer>
+
         </div>
       </div>
-    </div><br>
-
-    <div class="map cyan darken-1" style="">
-      <div class="container">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3980.6943053637006!2d-76.99510218561922!3d3.8755813971809467!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e373b435613b635%3A0x1e417490fae68dc4!2sCl.+9+%2369a-30%2C+Buenaventura%2C+Valle+del+Cauca!5e0!3m2!1sen!2sco!4v1502482314770" height="450" frameborder="0" style="border:0; width: 100%; " allowfullscreen></iframe>
-      </div>
-    </div>
-    <footer class="page-footer cyan">
-          <div class="container">
-            <div class="row">
-              <div class="col l6 s12">
-                <h5 class="white-text">KEVIN CAICEDO</h5>
-
-                <div class="social">
-                  <a href="https://github.com/kevincaicedo" target="_blank" class="social-item">
-                    <i class="fa fa-github" aria-hidden="true"></i>
-                  </a>
-
-                  <a href="https://www.linkedin.com/in/kevin-caicedo-529072ba/" target="_blank" class="social-item">
-                    <i class="fa fa-linkedin-square" aria-hidden="true"></i>
-                  </a>
-
-                  <a href="mailto:ing.sys.kevincaicedo@gmail.com" target="_top" class="social-item">
-                    <i class="fa fa-envelope-square" aria-hidden="true"></i>
-                  </a>
-                </div>
-
-              </div>
-              <div class="col l4 offset-l2 s12">
-                
-                <ul>
-                  <li><a class="active" href="#presentationitem">Home</a></li>
-                  <li><a href="#educacionitem">Educacion</a></li>
-                  <li><a href="#skillitem">Habilidades</a></li>
-                  <li><a href="#hobbie">Hobbies</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="footer-copyright">
-            <div class="container center">
-            © 2017 Copyright Kevin Caicedo
-            </div>
-          </div>
-        </footer>
-
-    <!--Import jQuery before materialize.js-->
-    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    <!-- Compiled and minified JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.min.js"></script>
-    <script type ="text/javascript">
-      $(document).ready(function(){
-        $('.carousel.carousel-slider').carousel({fullWidth: true});
-      });
-    </script>
+      
+      <!-- UIkit JS -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+      <script src="js/jquery.fullpage.min.js"></script>
+      <script src="js/app.js"></script>
   </body>
 </html>
